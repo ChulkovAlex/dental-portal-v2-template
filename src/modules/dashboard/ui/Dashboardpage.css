@@ -1,0 +1,18 @@
+.dashboard-page {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-lg);
+  padding: var(--spacing-xl);
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.dashboard-page h2 {
+  margin-bottom: var(--spacing-md);
+  color: var(--color-text);
+}
+
+.dashboard-page p {
+  color: var(--color-text-secondary);
+  margin-bottom: var(--spacing-md);
+}

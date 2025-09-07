@@ -1,0 +1,31 @@
+.calendar-widget {
+  background-color: var(--color-card-bg);
+  border-radius: var(--border-radius-lg);
+  padding: var(--spacing-lg);
+  box-shadow: var(--shadow-md);
+  margin-bottom: var(--spacing-xl);
+}
+
+.calendar-widget h3 {
+  margin-bottom: var(--spacing-md);
+  color: var(--color-text);
+}
+
+.calendar-events {
+  margin-top: var(--spacing-md);
+}
+
+.calendar-event {
+  padding: var(--spacing-sm);
+  margin-bottom: var(--spacing-sm);
+  background-color: #f0f7ff;
+  border-left: 4px solid #00a8a8;
+  border-radius: var(--border-radius-sm);
+  cursor: pointer;
+  transition: var(--transition-base);
+}
+
+.calendar-event:hover {
+  background-color: #e0f0ff;
+  transform: translateX(4px);
+}

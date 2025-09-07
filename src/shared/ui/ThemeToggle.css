@@ -1,0 +1,17 @@
+.theme-toggle {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: var(--spacing-sm);
+  border-radius: 50%;
+  background-color: var(--color-card-bg);
+  color: var(--color-text);
+  box-shadow: var(--shadow-sm);
+  transition: var(--transition-base);
+}
+
+.theme-toggle:hover {
+  transform: scale(1.1);
+  box-shadow: var(--shadow-md);
+}
